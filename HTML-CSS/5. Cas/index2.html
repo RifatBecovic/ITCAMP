@@ -1,0 +1,102 @@
+@@ -1,101 +0,0 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forme</title>
+  </head>
+  <body>
+    <h1>
+      <b><i>Forme u HTML-u</i></b>
+    </h1>
+    <form target="_blank" action="./index.html">
+      <label for="username">Unesite vas username </label>
+      <input
+        value="Nedim"
+        type="text"
+        name="username"
+        id="username"
+        placeholder="korisnicko ime"
+      />
+      <!-- placeholder koristimo kada zelimo da napisemo tekst unutar label -->
+      <br />
+      <br />
+      <label for="email">Unesite email adresu</label>
+      <input type="email" name="email" id="email" required />
+      <!-- da bi nesto bilo obavezujuce koristimo required id mora da bude isti kao i for unutar label taga -->
+      <br />
+      <br />
+      <label for="password">Unesite vasu lozinku:</label>
+      <input type="password" name="lozinka" id="password" required />
+      <br />
+      <br />
+      <label for="number">Unesite svoju starost</label>
+      <input
+        type="number"
+        name="unosgodina"
+        id="number"
+        step="2"
+        min="18"
+        max="65"
+      />
+      <br />
+      <br />
+      <label for="datum">Unesite datum rodjena</label>
+      <input type="date" name="Datum" id="datum" min="1970-01-01" />
+      <br />
+      <br />
+      <!-- button koristimo da bi napravili dugme -->
+      <br />
+      <br />
+      <p>Odaberite nekoliko</p>
+      <label for="banana">Banana</label>
+      <input type="checkbox" name="banana" id="banana" />
+      <br />
+      <br />
+      <label for="jagode">jagode</label>
+      <input type="checkbox" name="jagoda" id="jagoda" checked />
+      <!-- checked koristimo kada zelimo da je neka stavka uvek stiklirana -->
+      <br />
+      <br />
+      <label for="kivi">Kivi</label>
+      <input type="checkbox" name="kivi" id="kivi" />
+      <br />
+      <br />
+      <p>Odaberite pol:</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="eyeColor">Boja Ociju</label>
+      <!-- select koristimo kada zelimo da napravimo padajuci meni, option je za svaku stavku koju zelimo u padajucem meniju -->
+      <select name="eyeColor" id="eyeColor">
+        <option value="brown">brown</option>
+        <option value="green" selected>green</option>
+        <option value="blue">blue</option>
+      </select>
+      <br />
+      <br />
+      <label for="biografija">Ispisite vasu biografiju</label> <br />
+      <textarea
+        name="biografija"
+        id="biografija"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <label for="phone">Unesite broj telefona</label>
+      <input type="tel" name="phone" id="phone" />
+      <br />
+      <label for="color">Vasa omiljna boja</label>
+      <input type="color" name="color" id="color" />
+      <br />
+      <br />
+      <button type="submit">Potvrdi</button>
+      <button type="reset">Reset</button>
+      <br />
+    </form>
+  </body>
+</html>

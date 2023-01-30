@@ -1,0 +1,44 @@
+body {
+  background-image: url(./ethhero.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top;
+}
+
+.div1 {
+  width: 500px;
+  height: 600px;
+  background-color: #cab3f5;
+  margin: auto;
+  margin-top: 7%;
+  border: 3px groove #87a9f0;
+  border-radius: 15px;
+  overflow: auto;
+}
+.div1 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 20px;
+}
+.div1 h1 {
+  font-family: calibri;
+  text-align: center;
+  color: #5d82d2;
+}
+.div1 p {
+  font-family: calibri;
+  font-size: 15px;
+  text-indent: 10px;
+  text-align: justify;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: auto 5px auto 5px;
+}
+
+.div1 img:hover {
+  content: url(./eth-diamond-purple.png);
+}
+.div1 a {
+  text-decoration: none;
+}
