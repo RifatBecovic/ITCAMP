@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* drugi nacin importovanje eksternog fonta slova.  */
+* {
+  margin: 0;
+  overflow: auto;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.main {
+  background-color: coral;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 0px;
+  padding: 4px 6px 4px 6px;
+  /* display: inline-block; */
+}
+.main h1 {
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main p {
+  text-indent: 15px;
+  text-align: justify;
+  text-align-last: right;
+  font-size: 22px;
+  line-height: 30px;
+}
+.main main-second {
+  /* display: none; */
+  /* visibility: hidden; koristimo kada zelimo da nam nesto na sajtu ne bude prikazano a zauzima mesto */
+}
+#fawifi {
+  color: blue;
+}
