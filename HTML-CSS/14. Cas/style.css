@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik";
+  background-color: blue;
+  /* font-size: 0.4cm; */
+  /* font-size: 4mm; */
+  font-size: 16px;
+}
+.main {
+  background-color: blueviolet;
+  /* width: 600px; */
+  /* height: 40vh; */
+  /* width: 60vmin; */
+  width: 40%;
+  height: 400px;
+  margin: auto;
+  padding: 4px 6px 4px 6px;
+  font-size: 12px;
+}
+.second {
+  background-color: rgb(234, 234, 234);
+  /* width: 200px; */
+  /* height: 80px; */
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+/*U CSS-u imamo apsolutne i relativne velicine:  */
+
+/* 1. Absolute Lengths  */
+
+/* cm - centimeters */
+/* mm - milimeters */
+/* in - inches (96pc 1 inch) */
+/* px - pixel */
+/* pt - points (1pt 1/72 of 1 in) */
+/* pc - picas (1pc 12pt) */
+
+/* 2. Relativno Lengths */
+
+/* em - relativna u odnosu na font-size njenog parenta, em je 2 puta vece od kolicine piksela koje imamo unutar body-a ako imamo 12px 2em je 24px */
+/* rem - relativna u odnosu na root element, Ne nasledjuje od roditelja */
+/* vw - viewport of the width. Relativan za 1% u odnostu na sirinu ekrana, 60vw = 60% */
+/* vh - viewport of the height. Relativan za 1% u odnosu na visinu ekrana, 30vh = 30% */
+/* vmin - relativan za 1% u odnosu na manju dimenziju ekrana. */
+/* vmax - relativan za 1% u odnosu na vecu dimenziju ekrana. */
+/* % - relativan za 1% u odnosu na svog parenta.  */
