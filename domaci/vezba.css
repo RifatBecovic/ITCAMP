@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -132,12 +133,49 @@ body {
   color: #ac0000;
 }
 .card2 {
-  margin-left: -1px;
+  margin-left: 5px;
   height: 200px;
   width: 320px;
   border: 1px groove #ac0000;
   border-radius: 15px;
   background-image: url(./911card2.jfif);
   background-size: cover;
-  display: inline-block;
+}
+.card2 p {
+  text-align: center;
+  margin-left: 10px;
+  padding-top: 155px;
+  color: black;
+  font-size: 18px;
+}
+.card2 a {
+  text-decoration: none;
+}
+.card2 p:hover {
+  color: #ac0000;
+}
+.card3 {
+  margin-left: 5px;
+  height: 200px;
+  width: 320px;
+  border: 1px groove #ac0000;
+  border-radius: 15px;
+  background-image: url(./taycangtscard3.jfif);
+  background-size: cover;
+}
+.card3 p {
+  text-align: center;
+  margin-left: 10px;
+  padding-top: 155px;
+  color: black;
+  font-size: 18px;
+}
+.card3 a {
+  text-decoration: none;
+}
+.card3 p:hover {
+  color: #ac0000;
+}
+.cards {
+  display: flex;
 }
