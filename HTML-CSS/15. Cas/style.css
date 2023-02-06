@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.main {
+  background-color: aqua;
+  width: 600px;
+  height: 400px;
+}
+/* + u css-u znaci da prvi tag posle klase main ce imati primenjen bg color */
+.main + p {
+  background-color: red;
+}
+.main > p {
+  background-color: blue;
+}
