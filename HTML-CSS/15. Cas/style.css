@@ -12,6 +12,7 @@
 .main + p {
   background-color: red;
 }
+/* > se odnosi na onaj paragraf koji je direktno child od odredjenog taga (.main) */
 .main > p {
   background-color: blue;
 }
