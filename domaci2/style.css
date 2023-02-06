@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  overflow: auto;
+}
+body {
+  background-image: url(./slike/BTC\ 4K.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: block;
+}
+.main {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.card {
+  width: 400px;
+  height: 450px;
+  background-color: #fffe88;
+  border: 1px solid;
+  font-family: "Rubik";
+  border-radius: 15px 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: auto;
+}
+.card h1 {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: "Rubik";
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card p {
+  text-align: justify;
+  font-size: 18px;
+  text-indent: 10px;
+  padding: 4px 6px 4px;
+}
+.second {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.card2 {
+  width: 400px;
+  height: 450px;
+  background-color: #fffe88;
+  border: 1px solid;
+  font-family: "Rubik";
+  border-radius: 15px 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: auto;
+}
+.card2 h1 {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: "Rubik";
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card2 p {
+  text-align: justify;
+  font-size: 18px;
+  text-indent: 10px;
+  padding: 4px 6px 4px;
+  visibility: none;
+}
