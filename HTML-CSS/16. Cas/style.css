@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: red;
+  margin: 40px auto 0px;
+}
+h1 {
+  font-size: 50px;
+}
+.child1 {
+  background-color: burlywood;
+  height: 130px;
+  /* position static je default vrednost pozicioniranja */
+  /*dobijamo 4 nova css svojstva  */
+  /* top: ; */
+  /* bottom: ; */
+  /* right: ; */
+  /* left: ; */
+  z-index: 10;
+  top: 140px;
+  left: 100px;
+  /* position: relative; */
+  position: absolute;
+}
+.child2 {
+  background-color: blue;
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+}
+.child3 {
+  background-color: aquamarine;
+  height: 130px;
+  position: sticky;
+  top: 40px;
+}
+.child4 {
+  background-color: rgb(3, 76, 52);
+  height: 130px;
+}
