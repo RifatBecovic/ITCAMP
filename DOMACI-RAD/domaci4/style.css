@@ -55,7 +55,7 @@ body {
 .box1 {
   z-index: 10;
   width: 790px;
-  height: 900px;
+  height: 650px;
   background-image: url(./brandkit/divbackground.JPG);
   background-color: #f9f9fb;
   background-size: 790px 100px;
@@ -95,6 +95,72 @@ body {
 }
 .box2 {
   width: 370px;
-  height: 900px;
+  height: 600px;
   background-color: #f9f9fb;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: auto;
+  left: 800px;
+  bottom: 625px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Rubik";
+}
+.box2 p {
+  margin-left: 3px;
+  padding: 10px auto 10px auto;
+  margin-top: 7px;
+}
+.box2 span {
+  color: red;
+  margin-left: 3px;
+}
+.box2 section {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 50px 20px 50px 20px;
+  width: 50%;
+}
+.box2 button {
+  position: relative;
+  top: 20px;
+  left: 17px;
+  padding: 10px 70px 10px 70px;
+  background-color: #0650aa;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.register-container {
+  margin-top: 30px;
+}
+.labels {
+  position: relative;
+  left: 10%;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.label {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px 75px 10px 75px;
+}
+.role {
+  padding: 10px 55px 10px 55px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.country {
+  padding: 10px 3px 10px 3px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.devlang {
+  padding: 10px 77px 10px 77px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.footer p {
+  margin-top: 70px;
+  padding: 5px 10px;
+  text-align: center;
 }
