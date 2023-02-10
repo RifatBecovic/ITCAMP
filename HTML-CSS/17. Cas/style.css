@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vh;
+  height: 15vh;
+  background-color: rgb(188, 188, 188);
+}
+.header img {
+  width: 30vw;
+  height: 90px;
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 6px;
+}
+.links {
+  float: right;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+a {
+  font-size: 22px;
+  margin-right: 10px;
+  background-color: rgb(84, 84, 84);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  text-decoration: none;
+  font-family: "Rubik";
+}
+a:hover {
+  background-color: #440299;
+}
+/* a:visited {
+  color: red;
+}  a tag koji je posecen font ce biti druge boje*/
+/* a:active {
+  color: white;
+} kada predjemo  misem preko a taga aktiviraju se odredjeni kodovi*/
+p {
+  font-size: 22px;
+  font-family: "Rubik";
+  /* word-spacing: 20px; */
+  /* letter-spacing: 2px; */
+  /* line-height: 40px; */
+}
+
+.bbb {
+  text-align: center;
+  color: red;
+}
+i {
+  background-color: black;
+  border-radius: 50px;
+}
