@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* flex-direction:row ; je default vrednost  */
+  /* flex-direction: column; */
+
+  /* Horizontalno poravnanje: */
+  /* justify-content: flex-start; defaultna vrednost horizontalnog poravnanja */
+  /* justify-content: center; centrirano na sredini radi za sve tagove koje imaju displey flex */
+  /* justify-content: flex-end; poravnanje na kraju to jest desnoj strani */
+  /* justify-content: space-between; razmak izmedju svakog childa ili parenta  */
+  /* justify-content: space-around; razmak okolo svakog childa ili parenta */
+  /* justify-content: space-evenly;  razmak koji je jednak izmedju svakog childa i parenta*/
+  justify-content: space-evenly;
+
+  /* Vertikalno poravnanje: */
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+.first {
+  /* align-self:  kada zelimo jedan div ili jedan parent kontenjer da pomeramo */
+  align-self: flex-start;
+  background-color: gray;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: blue;
+}
+.third {
+  align-self: flex-end;
+  background-color: purple;
+}
