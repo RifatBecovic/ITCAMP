@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: red;
+  height: 80vh;
+  display: flex;
+  /* column-gap: ; razmak kolona  */
+  /* row-gap: 15px;  razmak redova */
+  /* gap: 30px;koristimo kada zelimo da napravimo prostor izmedju boxova */
+  /* flex-wrap: wrap-reverse; radi na prinicu da poredja boxove na dnu parenta  */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; koristimo kada zelimo da sve boxove stavimo u jedan red*/
+  /* flex-wrap: nowrap; defaultna vrednost  */
+}
+.box {
+  flex-basis: 150px;
+  /* flex-basis: 250px;  flex-basis je dobra praksa za koriscenje umesto width. ISTI JE EFEKAT! */
+  /* width: 250px; */
+  height: 120px;
+}
+.first {
+  background-color: blue;
+  /* flex-grow: 2;  Uzima jednu celinu sirine. Treba ga definisati i na ostalim child elementima. */
+  flex-shrink: 3;
+  /* flex-shrink: ; Property dolazi do izrazaja kada suzavamo ekran.Pozeljno je imati definisanu sirinu childa kako bi svojstvo flex-shrink doslo do izrazaja. */
+  /* order: ;  svojstvo nam sluzi za redjanje elemenata na stranici po nasoj zelji. MENJAMO HTML POREDAK ELEMANATA. order svojstvo se ubacuje samo kod child kontenjera*/
+  order: 3;
+}
+.second {
+  background-color: blueviolet;
+  /* flex-grow: 1; */
+  flex-shrink: 3;
+  order: 2;
+}
+.third {
+  background-color: green;
+  /* flex-grow: 1; */
+  flex-shrink: 3;
+  order: 1;
+}
